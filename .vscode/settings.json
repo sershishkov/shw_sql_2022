@@ -1,6 +1,16 @@
 {
   "sqltools.connections": [
     {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "askForPassword": true,
+      "driver": "PostgreSQL",
+      "name": "postgres1",
+      "database": "gym",
+      "username": "postgres"
+    },
+    {
       "mysqlOptions": {
         "authProtocol": "default"
       },
@@ -10,18 +20,8 @@
       "askForPassword": true,
       "driver": "MySQL",
       "name": "mysql1",
-      "database": "restaurants",
+      "database": "gym",
       "username": "root"
-    },
-    {
-      "previewLimit": 50,
-      "server": "localhost",
-      "port": 5432,
-      "askForPassword": true,
-      "driver": "PostgreSQL",
-      "name": "postgres1",
-      "database": "restaurants",
-      "username": "postgres"
     }
   ]
 }
