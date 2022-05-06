@@ -4,8 +4,13 @@
 -- WHERE first_name = 'Max'
 -- ;
 
+-- SELECT
+-- *
+-- FROM users
+-- WHERE first_name LIKE 'Ma%'
+-- ;
+
 SELECT
-*
-FROM users
-WHERE first_name LIKE 'Ma%'
+COUNT(id)
+FROM locations
 ;
